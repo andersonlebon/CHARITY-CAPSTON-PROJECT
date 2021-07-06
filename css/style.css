@@ -143,6 +143,7 @@
   padding: 20px 0;
   position: relative;
   margin-bottom: 20px;
+  text-align: center;
 }
 
 .heading::after {
@@ -208,7 +209,6 @@
   /* padding: 15px; */
   width: 180px;
   height: 100%;
-  background: url(../images/bg-square.jpg);
   position: relative;
 }
 
