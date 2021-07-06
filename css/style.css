@@ -9,6 +9,7 @@
   width: 100%;
   position: fixed;
   top: 0;
+  z-index: 999;
 }
 
 .socialMedia {
@@ -246,4 +247,57 @@
   width: 20px;
   height: 16px;
   margin: 0 10px;
+}
+
+.mob-menu {
+  height: 90vh;
+}
+
+.mob-menu .socialMedia {
+  justify-content: center;
+}
+
+.mob-menu .socialMedia ul {
+  padding: 0;
+}
+
+.mob-menu .hamburger {
+  display: none;
+}
+
+.mob-menu .nav-bar {
+  padding-top: 60px;
+  border-radius: 100px 0 100% 100%;
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.801);
+}
+
+.mob-menu .nav-bar ul {
+  margin: 20px 0;
+}
+
+.mob-menu .navBar-items {
+  padding: 10px;
+  width: 100%;
+  margin: 0;
+  font-size: 17px;
+}
+
+.mob-menu .navBar-items:hover {
+  font-weight: 700;
+  transform: translateX(-20px);
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.mob-menu .navBar-items a:hover {
+  color: var(--seconderyColor);
+  /* transition: all 0.3s ease-in-out; */
+}
+
+.cancelBtn {
+  width: 30px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
 }

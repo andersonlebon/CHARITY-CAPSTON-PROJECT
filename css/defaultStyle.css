@@ -60,6 +60,13 @@ a {
   align-items: center;
 }
 
+.d-flex-column-center-start {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start !important;
+  align-items: center;
+}
+
 .d-flex-colomn-end {
   display: flex;
   flex-direction: column;
@@ -120,4 +127,12 @@ a {
 
 .orange_text {
   color: var(--seconderyColor);
+}
+
+.mob-flue {
+  overflow: hidden;
+}
+
+.mob-flue section {
+  filter: blur(5px);
 }
