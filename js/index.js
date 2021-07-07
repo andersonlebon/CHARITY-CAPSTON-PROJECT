@@ -44,7 +44,7 @@ const sectionOneOptions = {
   rootMargin: '-100px 0px 0px 0px',
 };
 
-const sectionOneObserver = new IntersectionObserver((entries, sectionOneObserver) => {
+const sectionOneObserver = new IntersectionObserver((entries) => {
   entries.forEach((entry) => {
     if (!entry.isIntersecting) {
       header.style.backgroundColor = 'white';
