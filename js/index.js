@@ -44,10 +44,7 @@ const sectionOneOptions = {
   rootMargin: '-100px 0px 0px 0px',
 };
 
-const sectionOneObserver = new IntersectionObserver(function (
-  entries,
-  sectionOneObserver
-) {
+const sectionOneObserver = new IntersectionObserver((entries, sectionOneObserver) => {
   entries.forEach((entry) => {
     if (!entry.isIntersecting) {
       header.style.backgroundColor = 'white';
@@ -62,5 +59,5 @@ sectionOneOptions);
 sectionOneObserver.observe(homePart1);
 
 window.addEventListener('scroll', () => {
-  navBar.classList.toggle('scroll-navBar', window.scrollY > 200);
+  navBar.classList.toggle('scroll-navBar', window.scrollY > 0);
 });

@@ -5,11 +5,7 @@
 }
 
 .about-section .home-part1 {
-  background-image: linear-gradient(
-      rgba(206, 205, 205, 0.911),
-      rgba(220, 224, 220, 0.742)
-    ),
-    url(../images/aboutBG.jpg);
+  background-image: linear-gradient(rgba(206, 205, 205, 0.911), rgba(220, 224, 220, 0.742)), url(../images/aboutBG.jpg);
   height: 100%;
 }
 
@@ -18,8 +14,19 @@
   border: 3px solid rgba(158, 158, 158, 0.74);
 }
 
-.about-section .donation {
-  /* padding: 50px 0; */
+.last-info p {
+  margin-left: 15px;
+  font-size: 14px;
+}
+
+.text-donator p {
+  font-size: 18px;
+  line-height: 30px;
+  width: 70%;
+  font-weight: 700;
+  color: white;
+  text-align: center;
+  margin: 10px;
 }
 
 .about-section .home-part1 p {
@@ -52,6 +59,7 @@
   width: 80%;
   text-align: center;
 }
+
 .about-section .about-logo {
   width: 100%;
   padding: 0;
@@ -67,12 +75,12 @@
   padding: 30px;
   border-bottom: 2px solid rgba(158, 158, 158, 0.596);
 }
+
 .donator {
   width: 90%;
   height: 270px;
   background-color: red;
   position: relative;
-  /* margin: 10px 20px; */
 }
 
 .img-donator {
@@ -94,15 +102,6 @@
   font-size: 35px;
   font-weight: 900;
   color: white;
-}
-.text-donator p {
-  font-size: 18px;
-  line-height: 30px;
-  width: 70%;
-  font-weight: 700;
-  color: white;
-  text-align: center;
-  margin: 10px;
 }
 
 .partners {
@@ -127,10 +126,7 @@
 .last-info {
   padding: 50px 10px;
 }
-.last-info p {
-  margin-left: 15px;
-  font-size: 14px;
-}
+
 .donators {
   width: 100%;
   display: flex;
@@ -139,17 +135,17 @@
   justify-content: center;
   padding: 50px 0 150px 0;
 }
+
 @media only screen and (min-width: 900px) {
   .about-section .home-part1 p {
     width: auto;
   }
+
   .about-section .about-logo {
     padding: 50px 10px;
     width: 300px;
-    /* padding: 0;
-    border: 1px solid rgba(158, 158, 158, 0.596);
-    margin: 30px 0; */
   }
+
   .donators {
     width: 100%;
     display: flex;
@@ -158,21 +154,25 @@
     justify-content: center;
     padding: 50px 0 150px 0;
   }
+
   .donator {
     width: 500px;
-    /* height: 300px; */
   }
+
   .about {
     width: 55%;
   }
+
   .about-section .home-part1 {
     height: 100%;
   }
+
   .donators .anim-donator {
     opacity: 1;
     transition: all 0.5s ease;
     transform: translateX(0) scale(1);
   }
+
   .text-donator {
     position: absolute;
     top: 0;
