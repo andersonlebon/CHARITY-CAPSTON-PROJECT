@@ -10,6 +10,7 @@
       rgba(220, 224, 220, 0.742)
     ),
     url(../images/aboutBG.jpg);
+  height: 100%;
 }
 
 .about-section .charity-info {
@@ -18,7 +19,11 @@
 }
 
 .about-section .donation {
-  padding: 50px 0;
+  /* padding: 50px 0; */
+}
+
+.about-section .home-part1 p {
+  width: 100%;
 }
 
 .about-heading {
@@ -70,15 +75,21 @@
   /* margin: 10px 20px; */
 }
 
+.img-donator {
+  background-color: rgba(255, 0, 0, 0.376);
+  position: absolute;
+  top: 0;
+  font-size: 40px;
+}
+
 .text-donator {
-  z-index: -999;
   position: absolute;
   top: 0;
   left: 0;
+  opacity: 1;
   background-color: rgba(218, 0, 0, 0.65);
-  opacity: 0;
-  transition: all 0.5s ease-in-out;
 }
+
 .text-donator h3 {
   font-size: 35px;
   font-weight: 900;
@@ -86,16 +97,12 @@
 }
 .text-donator p {
   font-size: 18px;
+  line-height: 30px;
+  width: 70%;
   font-weight: 700;
   color: white;
   text-align: center;
   margin: 10px;
-}
-
-.anim-donator {
-  z-index: 999;
-  opacity: 1;
-  transition: all 0.5s ease;
 }
 
 .partners {
@@ -123,4 +130,56 @@
 .last-info p {
   margin-left: 15px;
   font-size: 14px;
+}
+.donators {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  justify-content: center;
+  padding: 50px 0 150px 0;
+}
+@media only screen and (min-width: 900px) {
+  .about-section .home-part1 p {
+    width: auto;
+  }
+  .about-section .about-logo {
+    padding: 50px 10px;
+    width: 300px;
+    /* padding: 0;
+    border: 1px solid rgba(158, 158, 158, 0.596);
+    margin: 30px 0; */
+  }
+  .donators {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    justify-content: center;
+    padding: 50px 0 150px 0;
+  }
+  .donator {
+    width: 500px;
+    /* height: 300px; */
+  }
+  .about {
+    width: 55%;
+  }
+  .about-section .home-part1 {
+    height: 100%;
+  }
+  .donators .anim-donator {
+    opacity: 1;
+    transition: all 0.5s ease;
+    transform: translateX(0) scale(1);
+  }
+  .text-donator {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(218, 0, 0, 0.65);
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+    transform: translateY(150px) scale(1.099);
+  }
 }

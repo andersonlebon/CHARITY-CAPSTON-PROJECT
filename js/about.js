@@ -1,10 +1,13 @@
-const donator = document.querySelector('.donator');
-const donatorText = document.querySelector('.text-donator');
+const donators = document.querySelectorAll('.donator');
 
-donator.addEventListener('mouseenter', () => {
-  donatorText.classList.add('anim-donator');
-});
+donators.forEach((donator) => {
+  donator.addEventListener('mouseenter', () => {
+    const donatorText = donator.querySelector('.text-donator');
+    donatorText.classList.add('anim-donator');
+  });
 
-donator.addEventListener('mouseleave', () => {
-  donatorText.classList.remove('anim-donator');
+  donator.addEventListener('mouseleave', () => {
+    const donatorText = donator.querySelector('.text-donator');
+    donatorText.classList.remove('anim-donator');
+  });
 });
