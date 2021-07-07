@@ -26,7 +26,7 @@ This project is build with:
 - CSS;
 - JavaScript.
 
-[Link Demo](https://andersonlebon.github.io/Portfolio-w2/ 'Click here to see more')
+[Link Demo](https://andersonlebon.github.io/HTM-CSS-CAPSTON_PROJECT/'Click here to see more')
 
 ##### Short overview of the project
 [loom video ](https://www.loom.com/share/d306da419e214b60b3bf2ef9c1e7009f)
@@ -50,9 +50,12 @@ For tracking linter errors locally you need to follow these steps:
 
   > `npx hint .`
 
-- And for tracking the linter errors in CSS file run:
+- For tracking the linter errors in CSS file run:
   > `npx stylelint "\*_/_.{css,scss}"`
 
+- And For tracking the linter errors in JavaScript file run:
+
+  > `npx eslint .`
 ## Author
 
 👤 **Anderson Caleb**
