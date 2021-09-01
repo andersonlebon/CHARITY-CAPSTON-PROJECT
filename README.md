@@ -26,7 +26,7 @@ This project is build with:
 - CSS;
 - JavaScript.
 
-[Link Demo](https://andersonlebon.github.io/HTM-CSS-CAPSTON_PROJECT/)
+[Link Demo](https://andersonlebon.github.io/CHARITY-CAPSTON-PROJECT/)
 
 ##### Short overview of the project
 [loom video ](https://www.loom.com/share/d306da419e214b60b3bf2ef9c1e7009f)
