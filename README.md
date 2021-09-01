@@ -5,6 +5,8 @@
 
 ## Description
 
+CHARITY IN THE WORLD is a website that provides the resources and platform to empower families to raise funds for their adoption, and engage their community with the powerful story of why they are choosing adoption. As one of the purest expressions of the love and compassion of the Gospel, adoption has always provided the life-altering solution to this need.
+
 > The main purposes of this website are :
 
 - Help poor people in the Wold
